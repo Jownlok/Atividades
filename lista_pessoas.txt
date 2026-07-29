@@ -1,0 +1,5 @@
+Luisa: 20, 67
+João: 50, 90
+Gabriela Nunes: 45, 80
+Maisa : 2, 0.6
+Marina : 23, 59
