@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 001</title>
+</head>
+<body>
+    <h1>Pedido de Pizza</h1>
+    <!--Action é onde ficara armazenado os dados coletados  -->
+    <form method='GET' action="teste.jsp">
+        Nome: <input type="text" name="nome"> <br>
+        Email: <input type="email" name="email"> <br>
+        
+        Tamanho: 
+        <!-- checked usado para definir um padrão marcado -->
+        <input type="radio" name="tamanho" value="G" checked> Grande
+        <input type="radio" name="tamanho" value="M"> Média
+        <input type="radio" name="tamanho" value="P"> Pequena<br>
+
+        Sabor: <select name="sabor">
+                <option>Calabresa</option>
+                <option>Napolitana</option>
+                <option>Merguerita</option>
+               </select><br>
+
+        Adicionais:
+        <input type="checkbox" name="borda" value="sim"> Borda Recheada
+        <input type="checkbox" name="extra" value="sim"> Extra de Queijo<br>
+        Data Entrega: <input type="date" name="dataEntrega"><br>
+        Comentário: <textarea name="mensagem" rows="10" cols="30"></textarea><br>
+        <input type="submit" value="Enviar Pedido">
+    </form>
+</body>
+</html>
