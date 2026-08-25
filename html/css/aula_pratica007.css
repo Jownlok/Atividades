@@ -1,0 +1,22 @@
+.alternada{
+    list-style: upper-roman;
+    background-color: rgb(219, 219, 219);
+    font-size: 30px;
+    color: white;
+    padding: 100px;
+    border-radius: 20px;
+    border-bottom: #a8a8a8 solid 10px;
+    width:fit-content;
+}
+
+.alternada li:nth-child(odd){
+    background-color: khaki;
+}
+/* Even = par, Odd = ímpar, nth-child = função para pegar  */
+.alternada li:nth-child(even){ 
+    background-color: rgb(245, 221, 6);
+}
+
+body{
+    background-color: black;
+}

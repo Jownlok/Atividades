@@ -1,0 +1,23 @@
+.quadrado1{
+        right: 0; top: 0; margin: 0;position: absolute;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: 3px solid black; width:100px; height:100px;background-color:orange;
+}
+.quadrado2{
+        border: 3px solid black; width:100px; height:100px;background-color:red;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        left: 0; top: 0; margin: 0;position: absolute;
+}
+.quadrado3{
+        border: 3px solid black; width:100px; height:100px;background-color:green;
+        right: 0; bottom: 0; margin: 0;position: absolute;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.quadrado4{
+        border: 3px solid black; width:100px; height:100px;background-color:crimson; 
+        position: absolute; left: 0; bottom: 0; margin: 0px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div {
+    margin: 12px; text-align:center; 
+}
