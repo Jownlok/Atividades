@@ -1,0 +1,34 @@
+body{
+    display: flex;margin: 0; padding: 0;justify-content: center;align-items: center;height: 700px;margin: 30px;flex-direction: column;
+    background-image: linear-gradient(white,rgb(233, 233, 233));background-repeat:no-repeat;
+}
+
+/* Header */
+.header{
+    display:flex;width: 100%;height: 120px;position: fixed;text-align: center;justify-content: center;top: 0;align-items: center;
+    background-color: black;border-bottom: solid gray 5px;
+}
+h1{
+    color: white;font-family: 'Courier New', Courier, monospace;
+}
+
+.menu{
+    display:flex;width: 100%; max-width: 600px; height: 200px;border-radius: 10px; gap: 5px; padding: 10px;
+    align-items: center;
+    background-color: black;border-bottom: solid gray 5px;
+}
+#blocoum, #blocodois{
+    width: 100%;;max-width: 200px;height: 60px;font-size: 2.5vw; font-family: 'Courier New', Courier, monospace;border-radius: 10px;
+}
+#escolha, #confirmar{
+    max-width: 60px;width: 100%;height: 60px;border-radius: 10px;font-size: 2.5vw;
+}
+#resultado{
+    width: 100%;max-width: 60px;height: 60px;border-radius: 10px;padding:10px;text-align: center;font-size: 2.5vw;font-family: 'Courier New', Courier, monospace;
+    background-color: white;transform: 0.3 ease;
+}
+
+#confirmar:hover, #escolha:hover{
+    cursor:pointer;transform: scale(1.1);
+}
+
