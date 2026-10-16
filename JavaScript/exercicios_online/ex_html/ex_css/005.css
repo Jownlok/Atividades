@@ -1,0 +1,30 @@
+body{
+    margin:0;padding:0;height:100vh;display:flex;justify-content: center;align-items: center;
+    background-image: linear-gradient(rgb(236, 234, 234),rgb(204, 202, 202));
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;color:rgb(0, 0, 0);text-align: center;
+}
+
+#painel{
+    display: flex;flex-flow: column;height: 600px;max-width: 400px;width: 100%;padding:10px;border-radius:15px;gap:15px;
+    background-image: linear-gradient( rgb(214, 207, 207),gray);border-bottom:rgb(102, 102, 102) solid 5px;
+}
+
+#text{
+    height:60px;border:none;border-radius: 15px;
+}
+
+#pull{
+    height: 40px;border:none;border-radius: 15px;
+}
+
+#result{
+    height: 300px;padding:15px;border-radius: 15px;
+    color:rgb(0, 0, 0);text-align: center;background-color: rgb(189, 188, 188);
+}
+
+#pull:hover{
+    opacity: 0.5;cursor: pointer;
+}
