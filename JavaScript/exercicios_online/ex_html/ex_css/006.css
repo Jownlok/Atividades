@@ -1,0 +1,44 @@
+body{
+    margin:0;padding:0;height:100vh;display:flex;flex-flow:column;align-items:center;justify-content:center;
+    background-image:linear-gradient(rgb(179, 246, 255),rgb(106, 241, 113))
+}
+/* CONTAINER */
+.Container{
+    display:flex;flex-flow:column;align-items:center;max-width:320px;width:320px;height:400px;padding:10px;
+    background-color:white;border-radius:15px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+/* TABELA */
+#tabela{
+    max-width:300px;width:300px;height:150px;border-collapse:collapse;
+    border:solid black 2px;font-family:Verdana, Geneva, Tahoma, sans-serif;box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#tabela td, th{
+    text-align:center;
+    border:solid black 1px;
+}
+#tabela td{
+    font-size:14px;
+}
+#tabela tbody tr:nth-child(odd){
+    background-color:rgb(218, 222, 223);
+}
+/* BOTÕES */
+.textos{
+    display:flex;
+}
+#Text1, #Text2, #Confirmar{ 
+    max-width:250px;width:220px;height:30px;margin:10px;
+    border:none;border-radius:10px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#Text3, #Text4{
+    max-width:50px;width:50px;height:30px;margin:10px;
+    border-radius:15px;border:none;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#Resultado{
+    display:flex;flex-flow:column;max-width:300px;width:300px;height:60px;
+    border-radius:15px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#Resultado p{
+    margin:0;padding:0;line-height:30px;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:14px;
+}
